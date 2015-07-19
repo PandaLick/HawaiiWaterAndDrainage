@@ -6,7 +6,7 @@ body {
 
 /* intro */
 .intro {
-  height: 90vh;
+  height: vh;
   background-color: #274A76;
 /*    background: url('../img/IMG_621.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -51,6 +51,57 @@ body {
 /* intro close */
 
 /* content */
+.content {
+	background: #274A76;
+	height: 84vh;
+}
+
+.content p {
+	padding: 20px;
+	color: white;
+	text-align: center;
+	font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+.content h1, h2, h3 {
+	color: white;
+	text-align: center;
+	font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	padding: 20px;
+}
+
+.separator {
+	border-bottom: 2px solid white;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+table {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* footer */
+footer {
+	background-color: #C29A50;
+	height: 68px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	bottom: 0px;
+}
+
+footer p {
+	color: white;
+	text-align: center;
+	margin-top: 18px;
+	margin-bottom: 0px;
+}
+
+footer p a {
+	color: white;
+	font-style: underline;
+	font-size: 18px;
+}
 
 
 

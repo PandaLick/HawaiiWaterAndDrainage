@@ -2,72 +2,6 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19033",
 "files": {
-	"\/assets\/Hydro International - Hale Mohalu.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4.57019e+06,
-		"inputAbbreviatedPath": "\/assets\/Hydro International - Hale Mohalu.jpg",
-		"outputAbbreviatedPath": "\/assets\/Hydro International - Hale Mohalu.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/Kaneohe MCBH Detention System.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4.2258e+06,
-		"inputAbbreviatedPath": "\/assets\/Kaneohe MCBH Detention System.jpg",
-		"outputAbbreviatedPath": "\/assets\/Kaneohe MCBH Detention System.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/Kroc Community Center.PNG": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 452367,
-		"inputAbbreviatedPath": "\/assets\/Kroc Community Center.PNG",
-		"outputAbbreviatedPath": "\/assets\/Kroc Community Center.PNG",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/Lihue Baseyard Retention.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 224541,
-		"inputAbbreviatedPath": "\/assets\/Lihue Baseyard Retention.jpg",
-		"outputAbbreviatedPath": "\/assets\/Lihue Baseyard Retention.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/Mehana Detention System.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 198370,
-		"inputAbbreviatedPath": "\/assets\/Mehana Detention System.jpg",
-		"outputAbbreviatedPath": "\/assets\/Mehana Detention System.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/Residence Inn Wailea.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5437,
-		"inputAbbreviatedPath": "\/assets\/Residence Inn Wailea.jpg",
-		"outputAbbreviatedPath": "\/assets\/Residence Inn Wailea.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/bower.json": {
 		"fileType": 524288,
 		"ignore": 1,
@@ -4244,6 +4178,169 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/projects.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/projects.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/img\/ADSStormtechSanititeHP.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 68771,
+		"inputAbbreviatedPath": "\/img\/ADSStormtechSanititeHP.png",
+		"outputAbbreviatedPath": "\/img\/ADSStormtechSanititeHP.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/flexstorm.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10787,
+		"inputAbbreviatedPath": "\/img\/flexstorm.png",
+		"outputAbbreviatedPath": "\/img\/flexstorm.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/garlock.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5267,
+		"inputAbbreviatedPath": "\/img\/garlock.png",
+		"outputAbbreviatedPath": "\/img\/garlock.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hydroInternational.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16448,
+		"inputAbbreviatedPath": "\/img\/hydroInternational.png",
+		"outputAbbreviatedPath": "\/img\/hydroInternational.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/insertaTee.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20649,
+		"inputAbbreviatedPath": "\/img\/insertaTee.png",
+		"outputAbbreviatedPath": "\/img\/insertaTee.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/IPS.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9806,
+		"inputAbbreviatedPath": "\/img\/IPS.png",
+		"outputAbbreviatedPath": "\/img\/IPS.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/northAmericanSpec.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16008,
+		"inputAbbreviatedPath": "\/img\/northAmericanSpec.png",
+		"outputAbbreviatedPath": "\/img\/northAmericanSpec.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/nyloplast.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10156,
+		"inputAbbreviatedPath": "\/img\/nyloplast.png",
+		"outputAbbreviatedPath": "\/img\/nyloplast.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/projects\/hydroInternationalHaleMohalu.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.57019e+06,
+		"inputAbbreviatedPath": "\/img\/projects\/hydroInternationalHaleMohalu.jpg",
+		"outputAbbreviatedPath": "\/img\/projects\/hydroInternationalHaleMohalu.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/projects\/kaneoheMCBHDetentionSystem.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.2258e+06,
+		"inputAbbreviatedPath": "\/img\/projects\/kaneoheMCBHDetentionSystem.jpg",
+		"outputAbbreviatedPath": "\/img\/projects\/kaneoheMCBHDetentionSystem.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/projects\/krocCommunityCenter.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 452367,
+		"inputAbbreviatedPath": "\/img\/projects\/krocCommunityCenter.jpg",
+		"outputAbbreviatedPath": "\/img\/projects\/krocCommunityCenter.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/projects\/lihueBaseyardRetention.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 224541,
+		"inputAbbreviatedPath": "\/img\/projects\/lihueBaseyardRetention.jpg",
+		"outputAbbreviatedPath": "\/img\/projects\/lihueBaseyardRetention.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/projects\/mehanaDetentionSystem.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 198370,
+		"inputAbbreviatedPath": "\/img\/projects\/mehanaDetentionSystem.jpg",
+		"outputAbbreviatedPath": "\/img\/projects\/mehanaDetentionSystem.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/projects\/residenceInnWailea.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5437,
+		"inputAbbreviatedPath": "\/img\/projects\/residenceInnWailea.jpg",
+		"outputAbbreviatedPath": "\/img\/projects\/residenceInnWailea.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -4274,6 +4371,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
+		},
+	"\/projects.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/projects.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/README.md": {
 		"criticStyle": 0,

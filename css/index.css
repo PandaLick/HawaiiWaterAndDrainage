@@ -2,6 +2,8 @@
 
 body {
 	background-color: #FFFFFF;
+	padding: 0px;
+	margin: 0px;
 }
 
 /* intro */
@@ -94,6 +96,40 @@ body {
 	font-size: 18px;
 }
 
+img {
+	margin-top: 0px;
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+img.first {
+	margin-top: 10px;
+}
+
+/* footer */
+footer {
+	background-color: #274A76;
+	height: 62px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	bottom: 0px;
+}
+
+footer p {
+	color: white;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 0px;
+}
+
+footer p a {
+	color: white;
+	font-style: underline;
+	font-size: 18px;
+}
+
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
@@ -106,7 +142,7 @@ and (max-device-width : 480px) {
 /* Smartphones (landscape) ----------- */
 @media only screen 
 and (min-width : 321px) {
-
+	
 }
 
 /* Smartphones (portrait) ----------- */
