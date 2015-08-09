@@ -1,0 +1,61 @@
+@media only screen { 
+
+  body {
+    background-color: #FFFFFF;
+  }
+
+  .content h1, h2, h3, h4, h5 {
+    color: black;
+    font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  }
+
+    .content h1 {
+      position: relative;
+      top: 0px;
+      margin-top: 25px;
+    }
+
+  .daGrid {
+    text-align: center;
+    margin: 20px 0px;
+  }
+
+    .daGrid h5 {
+      border-bottom: 1px solid black;
+    }
+
+  .garbContain {
+    padding: 0px 2px;
+  }
+
+  .child {
+    display: inline-block;
+  }
+
+} /* Define mobile styles */
+
+@media only screen and (max-width: 40em) { } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+@media only screen and (min-width: 40.063em) {
+
+  .content h1 {
+    margin-top: 50px;
+  }
+
+  .garbContain {
+    padding: 0px 20px;
+  }
+
+} /* min-width 641px, medium screens */
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+
+@media only screen and (min-width: 64.063em) { } /* min-width 1025px, large screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) { } /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+
+@media only screen and (min-width: 90.063em) { } /* min-width 1441px, xlarge screens */
+
+@media only screen and (min-width: 90.063em) and (max-width: 120em) { } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+
+@media only screen and (min-width: 120.063em) { } /* min-width 1921px, xxlarge screens */

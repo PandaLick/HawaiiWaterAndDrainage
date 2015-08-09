@@ -1,166 +1,162 @@
-/* index.css */
+@media only screen { 
 
-body {
-	background-color: #FFFFFF;
-}
+	body {
+		background-color: #FFFFFF;
+	}
+	/* content */
+	.content {
+		background: #274A76;
+	}
 
-/* intro */
-.intro {
-  height: vh;
-  background-color: #274A76;
-/*    background: url('../img/IMG_621.jpg') no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;*/
-}
+	.content h1, h2, h3 {
+		color: white;
+		text-align: center;
+		font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	}
 
-/* top bar */
-.top-bar {
-	/*background: transparent;*/
-	background: #C29A50 !important;
-}
+	.projects .row {
+		padding-top: 20px;
+	}
 
-.top-bar.expanded .title-area {
-	/*background: transparent;*/
-	background: #C29A50 !important;
-}
-
-.top-bar-section li {
-	/* second layer */
-	/*background: transparent !important;*/
-	background: #C29A50 !important;
-}
-
-.top-bar-section li:not(.has-form) a:not(.button) {
-	/* first layer */
-	/*background: transparent !important;*/
-	background: #C29A50 !important;
-	font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-}
-
-.top-bar h1 {
-	font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-}
-
-.top-bar.expanded .toggle-topbar a {
-	color: #FFFFFF !important;
-}
-/* top bar close */
-
-/* intro close */
-
-/* content */
-.content {
-	background: #274A76;
-}
-
-/*.content img {
-	display: block;
-	margin: 20px auto;
-}*/
-
-.content h1, h2, h3 {
-	color: white;
-	text-align: center;
-	font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-	margin: 0px 10px;
-	margin-top: 20px;
-}
-
-.projects .row {
-	margin-top: 20px;
-}
-
-.projects h2 {
-	color: color;
-	margin-top: 5px;
-}
-
-.last {
-	margin-bottom: 20px;
-}
+	.projects img {
+		border: 5px solid white;
+		border-radius: 5px;
+	}
 
 
-/* footer */
-footer {
-	background-color: #C29A50;
-	height: 68px;
-	margin-bottom: 0px;
-	padding-bottom: 0px;
-}
+	.projects p {
+		color: white;
+		font-size: 18px;
+		font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+		text-align: center;
+	}
 
-footer p {
-	color: white;
-	text-align: center;
-	margin-top: 18px;
-	margin-bottom: 0px;
-}
+	.otherProjects {
+		background: #274A76;
+	}
 
-footer p a {
-	color: white;
-	font-style: underline;
-	font-size: 18px;
-}
+		.otherProjects * {
+			font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+			color: white;
+			text-align: center;
+		}
+} /* Define mobile styles */
 
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
+@media only screen and (max-width: 40em) { } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
-	
-}
+@media only screen and (min-width: 40.063em) {
+	/* top bar */
+	.top-bar {
+		background: transparent !important;
+		padding: 20px 20px;
+	}
+		.top-bar.expanded .title-area {
+			background: transparent;
+		}
+		.top-bar-section li {
+			/* second layer */
+			background: transparent !important;
+		}
+		.top-bar-section li:not(.has-form) a:not(.button) {
+			/* first layer */
+			background: transparent !important; /*#C29A50 */
+			font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+			font-size: 18px;
+		}
+		.top-bar h1 {
+			font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+		}
+		.top-bar.expanded .toggle-topbar a {
+			color: #FFFFFF !important;
+		}
+		.top-bar .name h1 {
+			font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+			font-size: 23px;
+		}	
 
-/* Smartphones (landscape) ----------- */
-@media only screen 
-and (min-width : 321px) {
+	.intro {
+	  height: 50vh;
+	  background: url('../img/projects/mehanaDetentionSystemCover.png') no-repeat center -575px fixed;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	}
 
-}
+		.intro h1 {
+			color: white;
+			font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+			text-align: center;
+			margin-top: 130px;
+			font-size: 90px;		
+		}
 
-/* Smartphones (portrait) ----------- */
-@media only screen 
-and (max-width : 320px) {
-/* Styles */
-}
+	.headerContainer {
+		position: relative;
+	}
 
-/* iPads (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
-/* Styles */
-}
+	.headerContainer h1 {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: 1000px;
+		transform: translate(-50%, -50%);
+	}
+	.content {
+		background-color: #FFFFFF;
+	}
 
-/* iPads (landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
-/* Styles */
-}
+	.content * {
+		color: black;
+	}
 
-/* iPads (portrait) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) {
-/* Styles */
-}
+	.content .row:first-child {
+		padding-top: 50px;
+	}
 
-/* Desktops and laptops ----------- */
-@media only screen 
-and (min-width : 1224px) {
+	.projects .row {
+		margin-bottom: 50px;
+	}
 
-}
-/* Large screens ----------- */
-@media only screen 
-and (min-width : 1824px) {
-	
-}
+	.projects p {
+		color: black;
+	}
 
-/* iPhone 4 ----------- */
-@media
-only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5) {
-/* Styles */
-}
+	.projects img {
+		/*width: 650px;*/
+		height: 370px;
+	}
 
+	.otherProjects {
+		height: 20vh;
+	  	background: url('../img/projects/mehanaDetentionSystemCoverFlip.png') no-repeat center -115px fixed;
+	  	-webkit-background-size: cover;
+	  	-moz-background-size: cover;
+	  	-o-background-size: cover;
+	  	background-size: cover;
+	  	position: relative;
+	}
+
+	.otherProjectsContainer {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);	
+	}
+
+	.otherProjects p {
+		font-size: 18px;
+	}
+} /* min-width 641px, medium screens */
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+
+@media only screen and (min-width: 64.063em) { } /* min-width 1025px, large screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) { } /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+
+@media only screen and (min-width: 90.063em) { } /* min-width 1441px, xlarge screens */
+
+@media only screen and (min-width: 90.063em) and (max-width: 120em) { } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+
+@media only screen and (min-width: 120.063em) { } /* min-width 1921px, xxlarge screens */

@@ -4169,11 +4169,38 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/index.css": {
+	"\/css\/ems_index.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/index.css",
+		"inputAbbreviatedPath": "\/css\/ems_index.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/manufactures.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/manufactures.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/navFooter.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/navFooter.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/products.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/products.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -4186,6 +4213,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/img\/ADS.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1859,
+		"inputAbbreviatedPath": "\/img\/ADS.png",
+		"outputAbbreviatedPath": "\/img\/ADS.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/ADSStormtechSanititeHP.png": {
 		"fileType": 32768,
@@ -4204,7 +4242,7 @@
 		"ignoreWasSetByUser": 0,
 		"initialSize": 10787,
 		"inputAbbreviatedPath": "\/img\/flexstorm.png",
-		"outputAbbreviatedPath": "\/img\/flexstorm.png",
+		"outputAbbreviatedPath": "\/img\/flexstorm.PNG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4249,6 +4287,17 @@
 		"initialSize": 9806,
 		"inputAbbreviatedPath": "\/img\/IPS.png",
 		"outputAbbreviatedPath": "\/img\/IPS.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/legend.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9436,
+		"inputAbbreviatedPath": "\/img\/legend.png",
+		"outputAbbreviatedPath": "\/img\/legend.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4319,6 +4368,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/projects\/lihueBaseyardRetentionEdit.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.28661e+06,
+		"inputAbbreviatedPath": "\/img\/projects\/lihueBaseyardRetentionEdit.png",
+		"outputAbbreviatedPath": "\/img\/projects\/lihueBaseyardRetentionEdit.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/projects\/mehanaDetentionSystem.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4330,6 +4390,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/projects\/mehanaDetentionSystemCover.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 570340,
+		"inputAbbreviatedPath": "\/img\/projects\/mehanaDetentionSystemCover.png",
+		"outputAbbreviatedPath": "\/img\/projects\/mehanaDetentionSystemCover.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/projects\/mehanaDetentionSystemCoverFlip.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 633585,
+		"inputAbbreviatedPath": "\/img\/projects\/mehanaDetentionSystemCoverFlip.png",
+		"outputAbbreviatedPath": "\/img\/projects\/mehanaDetentionSystemCoverFlip.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/projects\/mehanaDetentionSystemflip.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 118732,
+		"inputAbbreviatedPath": "\/img\/projects\/mehanaDetentionSystemflip.jpg",
+		"outputAbbreviatedPath": "\/img\/projects\/mehanaDetentionSystemflip.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/projects\/residenceInnWailea.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4337,6 +4430,28 @@
 		"initialSize": 5437,
 		"inputAbbreviatedPath": "\/img\/projects\/residenceInnWailea.jpg",
 		"outputAbbreviatedPath": "\/img\/projects\/residenceInnWailea.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/Santite.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1592,
+		"inputAbbreviatedPath": "\/img\/Santite.png",
+		"outputAbbreviatedPath": "\/img\/Santite.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/Stormtech.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5656,
+		"inputAbbreviatedPath": "\/img\/Stormtech.png",
+		"outputAbbreviatedPath": "\/img\/Stormtech.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4361,6 +4476,15 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/manufacturers.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/manufacturers.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/package.json": {
 		"fileType": 524288,
 		"ignore": 1,
@@ -4371,6 +4495,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
+		},
+	"\/products.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/products.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/projects.html": {
 		"fileType": 8192,
