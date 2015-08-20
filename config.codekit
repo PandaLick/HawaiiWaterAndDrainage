@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19033",
+"creatorBuild": "19051",
 "files": {
 	"\/bower.json": {
 		"fileType": 524288,
@@ -4236,6 +4236,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/ebaaIron.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58635,
+		"inputAbbreviatedPath": "\/img\/ebaaIron.png",
+		"outputAbbreviatedPath": "\/img\/ebaaIron.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/flexstorm.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4265,6 +4276,17 @@
 		"initialSize": 16448,
 		"inputAbbreviatedPath": "\/img\/hydroInternational.png",
 		"outputAbbreviatedPath": "\/img\/hydroInternational.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/infoSense.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26436,
+		"inputAbbreviatedPath": "\/img\/infoSense.png",
+		"outputAbbreviatedPath": "\/img\/infoSense.ong.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4302,6 +4324,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/multiFittings.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13979,
+		"inputAbbreviatedPath": "\/img\/multiFittings.png",
+		"outputAbbreviatedPath": "\/img\/multiFittings.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/northAmericanSpec.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4320,6 +4353,215 @@
 		"initialSize": 10156,
 		"inputAbbreviatedPath": "\/img\/nyloplast.png",
 		"outputAbbreviatedPath": "\/img\/nyloplast.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/ads_n12_corrugated_hdpeDrainPipes.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 95449,
+		"inputAbbreviatedPath": "\/img\/products\/ads_n12_corrugated_hdpeDrainPipes.png",
+		"outputAbbreviatedPath": "\/img\/products\/ads_n12_corrugated_hdpeDrainPipes.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/adsGeotextilesAndGrids.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 161407,
+		"inputAbbreviatedPath": "\/img\/products\/adsGeotextilesAndGrids.png",
+		"outputAbbreviatedPath": "\/img\/products\/adsGeotextilesAndGrids.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/adsWaterQualityUnits.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 91401,
+		"inputAbbreviatedPath": "\/img\/products\/adsWaterQualityUnits.png",
+		"outputAbbreviatedPath": "\/img\/products\/adsWaterQualityUnits.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/duraslotDrainPipes.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 114896,
+		"inputAbbreviatedPath": "\/img\/products\/duraslotDrainPipes.png",
+		"outputAbbreviatedPath": "\/img\/products\/duraslotDrainPipes.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/ebaaPipeRestraint.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57111,
+		"inputAbbreviatedPath": "\/img\/products\/ebaaPipeRestraint.png",
+		"outputAbbreviatedPath": "\/img\/products\/ebaaPipeRestraint.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/flexstormInletFilters.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 161120,
+		"inputAbbreviatedPath": "\/img\/products\/flexstormInletFilters.png",
+		"outputAbbreviatedPath": "\/img\/products\/flexstormInletFilters.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/garlockGaskets.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 127202,
+		"inputAbbreviatedPath": "\/img\/products\/garlockGaskets.png",
+		"outputAbbreviatedPath": "\/img\/products\/garlockGaskets.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/hpStormPolypropylenePipes.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 125769,
+		"inputAbbreviatedPath": "\/img\/products\/hpStormPolypropylenePipes.png",
+		"outputAbbreviatedPath": "\/img\/products\/hpStormPolypropylenePipes.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/hydroInternationalFiltrationUnits.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26418,
+		"inputAbbreviatedPath": "\/img\/products\/hydroInternationalFiltrationUnits.png",
+		"outputAbbreviatedPath": "\/img\/products\/hydroInternationalFiltrationUnits.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/hydroInternationalHydrodynamicSeparator.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25693,
+		"inputAbbreviatedPath": "\/img\/products\/hydroInternationalHydrodynamicSeparator.png",
+		"outputAbbreviatedPath": "\/img\/products\/hydroInternationalHydrodynamicSeparator.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/infosense_SL-RAT_SewerLineRapidAssessmentTool.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 222597,
+		"inputAbbreviatedPath": "\/img\/products\/infosense_SL-RAT_SewerLineRapidAssessmentTool.png",
+		"outputAbbreviatedPath": "\/img\/products\/infosense_SL-RAT_SewerLineRapidAssessmentTool.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/ipsWeldOnPrimersAndCement.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59934,
+		"inputAbbreviatedPath": "\/img\/products\/ipsWeldOnPrimersAndCement.png",
+		"outputAbbreviatedPath": "\/img\/products\/ipsWeldOnPrimersAndCement.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/legendValvesAndFittings.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35274,
+		"inputAbbreviatedPath": "\/img\/products\/legendValvesAndFittings.png",
+		"outputAbbreviatedPath": "\/img\/products\/legendValvesAndFittings.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/multiFittingsPvcFittings.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 485883,
+		"inputAbbreviatedPath": "\/img\/products\/multiFittingsPvcFittings.png",
+		"outputAbbreviatedPath": "\/img\/products\/multiFittingsPvcFittings.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/naspRestraintPvcPipes.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 118398,
+		"inputAbbreviatedPath": "\/img\/products\/naspRestraintPvcPipes.png",
+		"outputAbbreviatedPath": "\/img\/products\/naspRestraintPvcPipes.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/naspYelomineRestraintPipes.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 103219,
+		"inputAbbreviatedPath": "\/img\/products\/naspYelomineRestraintPipes.png",
+		"outputAbbreviatedPath": "\/img\/products\/naspYelomineRestraintPipes.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/nyloplastDrainBasins.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70008,
+		"inputAbbreviatedPath": "\/img\/products\/nyloplastDrainBasins.png",
+		"outputAbbreviatedPath": "\/img\/products\/nyloplastDrainBasins.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/sanititeHPSewerPipes.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 85087,
+		"inputAbbreviatedPath": "\/img\/products\/sanititeHPSewerPipes.png",
+		"outputAbbreviatedPath": "\/img\/products\/santiteHPSewerPipes.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/products\/stormtechChamber_RetentionDetentionSystems.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 168785,
+		"inputAbbreviatedPath": "\/img\/products\/stormtechChamber_RetentionDetentionSystems.png",
+		"outputAbbreviatedPath": "\/img\/products\/stormtechChamber_RetentionDetentionSystems.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5059,10 +5301,6 @@
 			}
 		},
 	"jsLintFlags2": {
-		"ass": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"bitwise": {
 			"active": 0,
 			"flagValue": -1
@@ -5071,15 +5309,7 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"closure": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"continue": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"debug": {
+		"couch": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -5087,75 +5317,27 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"eqeq": {
+		"es6": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"evil": {
+		"eval": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"forin": {
+		"for": {
 			"active": 0,
 			"flagValue": -1
-			},
-		"indent": {
-			"active": 0,
-			"flagValue": 4
 			},
 		"maxlen": {
 			"active": 0,
 			"flagValue": 150
 			},
-		"newcap": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"node": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"nomen": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"plusplus": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"properties": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"regexp": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"rhino": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"sloppy": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"stupid": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"sub": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"todo": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"unparam": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"vars": {
+		"this": {
 			"active": 0,
 			"flagValue": -1
 			},

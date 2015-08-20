@@ -1,168 +1,135 @@
-/* index.css */
+@media only screen { 
+	body {
+		background: url('../img/projects/mehanaDetentionSystemCoverFlip.png') no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	}
 
-body {
-	background-color: #FFFFFF;
-}
+	/* top bar */
+	.top-bar {
+		/*background: transparent;*/
+		background: #C29A50 !important;
+	}
 
-/* intro */
-.intro {
-  height: vh;
-  background-color: #274A76;
-/*    background: url('../img/IMG_621.jpg') no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;*/
-}
+	.top-bar.expanded .title-area {
+		/*background: transparent;*/
+		background: #C29A50 !important;
+	}
 
-/* top bar */
-.top-bar {
-	/*background: transparent;*/
-	background: #C29A50 !important;
-}
+	.top-bar-section li {
+		/* second layer */
+		/*background: transparent !important;*/
+		background: #C29A50 !important;
+	}
 
-.top-bar.expanded .title-area {
-	/*background: transparent;*/
-	background: #C29A50 !important;
-}
+	.top-bar-section li:not(.has-form) a:not(.button) {
+		/* first layer */
+		/*background: transparent !important;*/
+		background: #C29A50 !important;
+		font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	}
 
-.top-bar-section li {
-	/* second layer */
-	/*background: transparent !important;*/
-	background: #C29A50 !important;
-}
+	.top-bar h1 {
+		font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	}
 
-.top-bar-section li:not(.has-form) a:not(.button) {
-	/* first layer */
-	/*background: transparent !important;*/
-	background: #C29A50 !important;
-	font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-}
+	.top-bar.expanded .toggle-topbar a {
+		color: #FFFFFF !important;
+	}
+	/* top bar close */
 
-.top-bar h1 {
-	font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-}
+	/* intro close */
 
-.top-bar.expanded .toggle-topbar a {
-	color: #FFFFFF !important;
-}
-/* top bar close */
+	/* content */
+	.content {
+		position: relative;
+		height: 75%;
+	}
+		.content p {
+			padding: 20px;
+			color: white;
+			text-align: center;
+			font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+		}
 
-/* intro close */
+		.content h1, h2, h3 {
+			color: white;
+			text-align: center;
+			font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+			padding: 20px;
+		}
 
-/* content */
-.content {
-	background: #274A76;
-	height: 84vh;
-}
+		.separator {
+			border-bottom: 2px solid white;
+			padding-left: 20px;
+			padding-right: 20px;
+		}
 
-.content p {
-	padding: 20px;
-	color: white;
-	text-align: center;
-	font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-}
+	table {
+		margin-right: auto;
+		margin-left: auto;
+	}
 
-.content h1, h2, h3 {
-	color: white;
-	text-align: center;
-	font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-	padding: 20px;
-}
+	.contactContainer {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		-webkit-transform: translate(-50%, -50%);
+	}
 
-.separator {
-	border-bottom: 2px solid white;
-	padding-left: 20px;
-	padding-right: 20px;
-}
+} /* Define mobile styles */
 
-table {
-	margin-right: auto;
-	margin-left: auto;
-}
+@media only screen and (max-width: 40em) { } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
-/* footer */
-footer {
-	background-color: #C29A50;
-	height: 68px;
-	margin-bottom: 0px;
-	padding-bottom: 0px;
-	bottom: 0px;
-}
+@media only screen and (min-width: 40.063em) {
+} /* min-width 641px, medium screens */
 
-footer p {
-	color: white;
-	text-align: center;
-	margin-top: 18px;
-	margin-bottom: 0px;
-}
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 
-footer p a {
-	color: white;
-	font-style: underline;
-	font-size: 12px;
-}
+@media only screen and (min-width: 64.063em) { 
+	.top-bar {
+		background: transparent !important;
+	}
+		.top-bar.expanded .title-area {
+			background: transparent;
+		}
+		.top-bar-section li {
+			/* second layer */
+			background: transparent !important;
+		}
+		.top-bar-section li:not(.has-form) a:not(.button) {
+			/* first layer */
+			background: transparent !important; /*#C29A50 */
+			font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+			font-size: 18px;
+			padding: 20px;
+		}
+		.top-bar h1 {
+			font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+						padding:20px;
+		}
+		.top-bar.expanded .toggle-topbar a {
+			color: #FFFFFF !important;
+		}
+		.top-bar .name h1 {
+			font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+			font-size: 23px;
+		}	
 
+		.intro {
+			rgba(0,0,0,0.2);
+		}
+} /* min-width 1025px, large screens */
 
+@media only screen and (min-width: 64.063em) and (max-width: 90em) { } /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
 
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
+@media only screen and (min-width: 90.063em) { } /* min-width 1441px, xlarge screens */
 
-	
-}
+@media only screen and (min-width: 90.063em) and (max-width: 120em) { } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
 
-/* Smartphones (landscape) ----------- */
-@media only screen 
-and (min-width : 321px) {
+@media only screen and (min-width: 120.063em) { } /* min-width 1921px, xxlarge screens */
 
-}
-
-/* Smartphones (portrait) ----------- */
-@media only screen 
-and (max-width : 320px) {
-/* Styles */
-}
-
-/* iPads (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
-/* Styles */
-}
-
-/* iPads (landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
-/* Styles */
-}
-
-/* iPads (portrait) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) {
-/* Styles */
-}
-
-/* Desktops and laptops ----------- */
-@media only screen 
-and (min-width : 1224px) {
-
-}
-/* Large screens ----------- */
-@media only screen 
-and (min-width : 1824px) {
-	
-}
-
-/* iPhone 4 ----------- */
-@media
-only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5) {
-/* Styles */
-}
 

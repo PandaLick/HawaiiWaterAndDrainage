@@ -1,11 +1,23 @@
 @media only screen { 
 
   body {
-    background-color: #FFFFFF;
+    background: url('../img/projects/mehanaDetentionSystemCoverFlip.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  * {
+    color: white;
+  }
+
+  .content {
+    background: rgba(0,0,0,0.2);
   }
 
   .content h1, h2, h3, h4, h5 {
-    color: black;
+    color: white;
     font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   }
 
@@ -21,7 +33,8 @@
   }
 
     .daGrid h5 {
-      border-bottom: 1px solid black;
+      border-bottom: 1px solid white;
+       min-height: 50px;
     }
 
   .garbContain {
@@ -30,6 +43,12 @@
 
   .child {
     display: inline-block;
+    width: 150px;
+    height: 150px;
+  }
+
+  img {
+    border: 2px solid white;
   }
 
 } /* Define mobile styles */
@@ -46,11 +65,49 @@
     padding: 0px 20px;
   }
 
+  .child {
+    width: 200px;
+    height: 200px;
+  }
+
 } /* min-width 641px, medium screens */
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) { } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 
-@media only screen and (min-width: 64.063em) { } /* min-width 1025px, large screens */
+@media only screen and (min-width: 64.063em) {
+  .top-bar {
+    background: transparent !important;
+  }
+    .top-bar.expanded .title-area {
+      background: transparent;
+    }
+    .top-bar-section li {
+      /* second layer */
+      background: transparent !important;
+    }
+    .top-bar-section li:not(.has-form) a:not(.button) {
+      /* first layer */
+      background: transparent !important; /*#C29A50 */
+      font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-size: 18px;
+      padding: 20px;
+    }
+    .top-bar h1 {
+      font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+            padding:20px;
+    }
+    .top-bar.expanded .toggle-topbar a {
+      color: #FFFFFF !important;
+    }
+    .top-bar .name h1 {
+      font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-size: 23px;
+    } 
+
+    .intro {
+      background: rgba(0,0,0,0.2);
+    }
+} /* min-width 1025px, large screens */
 
 @media only screen and (min-width: 64.063em) and (max-width: 90em) { } /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
 

@@ -47,6 +47,7 @@
 	}
 	/* top bar close */
 
+	/* "We Do Drainage" */
 	.head h1 {
 		color: white;
 		font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -59,9 +60,8 @@
 		font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 		font-size: 18px;
 	}
-	/* intro close */
 
-	/* content */
+	/* content - "3 across" */
 	.circle {
 		border-radius: 100%;
 		/*border: 2px solid black;*/
@@ -73,15 +73,12 @@
 		background: #E8B85F;
 	}
 
-	.circle i {
-		margin-top: 20px;
-	}
-
-	.top {
-		margin-top: 50px;
-	}
+		.circle i {
+			margin-top: 20px;
+		}
 
 	.content h1 {
+		font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 		text-align: center;
 		margin-top: 10px;
 		margin-bottom: 0px;
@@ -89,10 +86,30 @@
 	}
 
 	.content p {
+		font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 		text-align: center;
 		padding: 0px 10px 0px 10px;
 		font-size: 18px;
 	}
+
+	/* logos */
+	.logos {
+		background: white;
+	}
+
+		.logos h1, h2, h3, h4, h5 {
+			font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+			text-align: center;
+			color: black;
+			margin-top: 40px;
+			margin-bottom: 40px;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+
+		.logos h1 {
+			margin-bottom: 20px;
+		}
 
 	img {
 		margin-top: 0px;
@@ -109,8 +126,40 @@
 @media only screen and (min-width: 40.063em) { 
 	/* min-width 641px, medium screens */
 	.intro {
-		height: 180vh;
+	 height: auto;
+	  background: url('../img/projects/lihueBaseyardRetentionEdit.png') no-repeat center center fixed; 
+	  /*lihueBaseyardRetention*/
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
 	}
+
+	.mobileIntro {
+		margin: 20px 0px;
+	}
+
+	/* 3 across */
+	.icons {
+		margin-top: 80px;
+		padding-bottom: 30px;
+		border-bottom: 1px solid black;
+	}
+
+	h1.iconhead {
+		border-bottom: 2px solid white;
+		padding-bottom: 10px;
+		margin-bottom: 15px;
+		margin-left: 20px;
+		margin-right: 20px;
+		text-align: center;
+	}
+	
+	.logos .row:nth-last-of-type(2) {
+		border-bottom: 1px solid black;
+	}
+
+
 } 
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) { } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
@@ -175,6 +224,7 @@
 		}	
 	/* top bar close */
 
+	/* header */
 	.head h1 {
 		color: white;
 		font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -187,6 +237,7 @@
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%);
+		-webkit-transform: translate(-50%, -50%);
 	}
 
 	.content {	
@@ -202,37 +253,6 @@
 	.content h1 {
 		color: black;
 		font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-	}
-
-	.icons {
-		margin-top: 80px;
-		margin-bottom: 80px;
-	}
-
-	h1.iconhead {
-		border-bottom: 2px solid white;
-		padding-bottom: 10px;
-		margin-bottom: 15px;
-		margin-left: 20px;
-		margin-right: 20px;
-		text-align: center;
-	}
-
-	.logos {
-		background: white;
-	}
-
-	.logos h1, h2, h3, h4, h5 {
-		text-align: center;
-		color: black;
-		margin-top: 40px;
-		margin-bottom: 40px;
-		padding-left: 10px;
-		padding-right: 10px;
-	}
-
-	.lastlogo {
-		border-bottom: 1px solid black;
 	}
 }
 

@@ -1,28 +1,22 @@
-/*// Small screens*/
 @media only screen { 
 	body {
-		background-color: #FFFFFF;
+		background: url('../img/projects/mehanaDetentionSystemCoverFlip.png') no-repeat center center fixed; 
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
 	}
 
-	/* intro */
-	.intro {
-	  height: vh;
-	  background-color: #274A76;
-	/*    background: url('../img/IMG_621.jpg') no-repeat center center fixed; 
-	  -webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	  background-size: cover;*/
-	}
 
-	.logos {
-			background: white;
+
+	.logos, .intro {
+			background: rgba(0,0,0,0.2);
 		}
 
 		.logos h1, h2, h3, h4, h5 {
 			font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 			text-align: center;
-			color: black;
+			color: white;
 			margin-top: 40px;
 			margin-bottom: 40px;
 			padding-left: 10px;
@@ -47,8 +41,36 @@
 
 /*// Large screens*/
 @media only screen and (min-width: 64.063em) { 
+	.top-bar {
+		background: transparent !important;
+	}
+		.top-bar.expanded .title-area {
+			background: transparent;
+		}
+		.top-bar-section li {
+			/* second layer */
+			background: transparent !important;
+		}
+		.top-bar-section li:not(.has-form) a:not(.button) {
+			/* first layer */
+			background: transparent !important; /*#C29A50 */
+			font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+			font-size: 18px;
+			padding: 20px;
+		}
+		.top-bar h1 {
+			font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+						padding:20px;
+		}
+		.top-bar.expanded .toggle-topbar a {
+			color: #FFFFFF !important;
+		}
+		.top-bar .name h1 {
+			font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+			font-size: 23px;
+		}		
 	.logos .row:nth-last-child(2) {
-		border-bottom: 1px solid black;
+		border-bottom: 1px solid white;
 	}
 } /* min-width 1025px, large screens */
 

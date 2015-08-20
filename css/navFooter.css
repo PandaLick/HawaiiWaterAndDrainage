@@ -46,37 +46,39 @@
 		font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 	}
 
-	.footer p {
-		color: white;
-		text-align: center;
-	}
-
-	.footer p a {
-		color: white;
-	}
-
-	.footerTop {
-
-		padding: 20px 0px;
-	}
-
-	.footerTopCont {
-		background-color: #C29A50;
-	}
-		.footerFirstBlocks {
-			border-right: 2px solid white;
+		.footer p {
+			color: white;
+			text-align: center;
 		}
 
-		.footerFirstBlocks:first-child {
-			border-right: 2px solid white;
-			border-left: 2px solid white;
+		.footer p a {
+			color: white;
 		}
 
-		.footerFirstBlocks p {
-			padding-left: 10px;
-			margin-top: -10px;
-			padding-top: 10px;
+		.footerTop {
+
+			padding: 20px 0px;
 		}
+
+		.footerTopCont {
+			background-color: #C29A50;
+		}
+			.footerBlocks {
+				border-right: 1px solid white;
+				min-height: 250px;
+
+			}
+
+			.footerBlocks:first-child {
+				border-left: 1px solid white;
+				min-height: 250px;
+			}
+
+			.footerBlocks p {
+				padding-left: 10px;
+				margin-top: -10px;
+				padding-top: 10px;
+			}
 } /* min-width 641px, medium screens */
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) { } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
