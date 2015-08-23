@@ -45,7 +45,7 @@
 	/* content */
 	.content {
 		position: relative;
-		height: 75%;
+		height: 100%;
 	}
 		.content p {
 			padding: 20px;
@@ -78,6 +78,9 @@
 		left: 50%;
 		transform: translate(-50%, -50%);
 		-webkit-transform: translate(-50%, -50%);
+
+		background: rgba(0,0,0,0.3);
+		border-radius: 15px;
 	}
 
 } /* Define mobile styles */
@@ -85,6 +88,11 @@
 @media only screen and (max-width: 40em) { } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
 @media only screen and (min-width: 40.063em) {
+
+	.content {
+		height: 75%;
+	}
+
 } /* min-width 641px, medium screens */
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) { } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */

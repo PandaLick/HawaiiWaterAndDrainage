@@ -7,11 +7,15 @@
 	    background-size: cover;
 	}
 
+	.logos .row:first-of-type h4 {
+		margin-bottom: -40px;
+	}
+
 
 
 	.logos, .intro {
 			background: rgba(0,0,0,0.2);
-		}
+	}
 
 		.logos h1, h2, h3, h4, h5 {
 			font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -42,36 +46,58 @@
 /*// Large screens*/
 @media only screen and (min-width: 64.063em) { 
 	.top-bar {
-		background: transparent !important;
+		height: 85px;
+		background: #C29A50 !important;
 	}
 		.top-bar.expanded .title-area {
-			background: transparent;
+			background: #C29A50;
 		}
 		.top-bar-section li {
 			/* second layer */
-			background: transparent !important;
+			background: #C29A50 !important;
 		}
 		.top-bar-section li:not(.has-form) a:not(.button) {
 			/* first layer */
-			background: transparent !important; /*#C29A50 */
+			background: #C29A50 !important; /*#C29A50 */
 			font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 			font-size: 18px;
 			padding: 20px;
 		}
 		.top-bar h1 {
 			font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-						padding:20px;
+			padding:20px;
 		}
 		.top-bar.expanded .toggle-topbar a {
-			color: #FFFFFF !important;
+			color: ##C29A50 !important;
 		}
 		.top-bar .name h1 {
 			font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 			font-size: 23px;
 		}		
 	.logos .row:nth-last-child(2) {
-		border-bottom: 1px solid white;
+		border-bottom: 1px solid black;
+
 	}
+
+	body {
+/*		background: url('../img/projects/mehanaDetentionSystemCoverFlip.png') no-repeat center center fixed; 
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;*/
+	    background: white;
+	}
+
+		.logos, .intro {
+			background: rgba(0,0,0,0.0);
+		}
+
+		.logos h1, h2, h3, h4, h5 {
+			color: black;
+		}
+
+
+	
 } /* min-width 1025px, large screens */
 
 @media only screen and (min-width: 64.063em) and (max-width: 90em) { } /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */

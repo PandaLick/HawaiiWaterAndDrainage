@@ -1,15 +1,16 @@
 @media only screen { 
 
 	body {
-		background: url('../img/projects/mehanaDetentionSystemCoverFlip.png') no-repeat center center fixed; 
-    	-webkit-background-size: cover;
-    	-moz-background-size: cover;
-    	-o-background-size: cover;
-    	background-size: cover;
+		background: #274A76
 	}
+
+	.introCont h1 {
+		margin-top: 25px;
+	}
+
 	/* content */
 	.content {
-		background-color: rgba(0,0,0,0.5);
+		/*background-color: rgba(0,0,0,0.5);*/
 	}
 
 	.content h1, h2, h3, p {
@@ -40,7 +41,7 @@
 	}
 
 	.otherProjects {
-		background: #274A76;
+		background: #C29A50;
 	}
 
 		.otherProjects * {
@@ -58,22 +59,21 @@
 
 @media only screen and (min-width: 40.063em) {
 	.intro {
-	  background: url('../img/projects/mehanaDetentionSystemCover.png') no-repeat center center fixed;
+/*	  background: url('../img/projects/mehanaDetentionSystemCover.png') no-repeat center center fixed;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
-	  background-size: cover;
+	  background-size: cover;*/
 	  position: relative;
 	}
 
 		.introCont {
 			height: 50vh;
 			postition: relative;
-			
 		}
 
-
 		.introCont h1 {
+
 			position: absolute;
 			top: 50%;
 			left: 50%;
@@ -104,6 +104,10 @@
 		.content .row:first-child {
 			padding-top: 50px;
 		}
+
+	.projects .row:first-of-type {
+
+	}	
 
 	.projects .row {
 		margin-bottom: 50px;
@@ -192,7 +196,11 @@
 
 	.intro {
 		height: 40vh;
-	}	
+	}
+
+		.introCont h1 {
+			margin: 0px;
+		}	
 
 	.daHeader {
 		font-size: 80px;
@@ -206,20 +214,21 @@
 	  	-o-background-size: cover;
 	  	background-size: cover;
 	  	position: relative;
+
 	}
 
 	.otherProjects .row {
-		/*text-align: center;*/
+		text-align: center;
 		position: relative;
 		
 	}
 
 	.otherProjectsContainer {
 		position: absolute;
-		top: 100%;
-		left: 0%;
-		transform: translate(-0%, -0%);
-		-webkit-transform: translate(-0%, -0%);
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		-webkit-transform: translate(-50%, -00%);
 		margin: 0px;
 	}
 } /* min-width 1025px, large screens */

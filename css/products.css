@@ -1,30 +1,34 @@
 @media only screen { 
 
   body {
-    background: url('../img/projects/mehanaDetentionSystemCoverFlip.png') no-repeat center center fixed; 
+/*    background: url('../img/projects/mehanaDetentionSystemCoverFlip.png') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover;*/
   }
 
   * {
-    color: white;
+    color: black;
+
   }
 
   .content {
-    background: rgba(0,0,0,0.2);
+    /*background: rgba(0,0,0,0.2);*/
   }
 
   .content h1, h2, h3, h4, h5 {
-    color: white;
+    color: black;
     font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   }
 
     .content h1 {
-      position: relative;
-      top: 0px;
       margin-top: 25px;
+    }
+
+    .content .row:first-of-type h5 {
+      margin-top: -10px;
+      margin-bottom: 10px;
     }
 
   .daGrid {
@@ -33,12 +37,14 @@
   }
 
     .daGrid h5 {
-      border-bottom: 1px solid white;
+      border-bottom: 1px solid black;
        min-height: 50px;
+       
     }
 
   .garbContain {
     padding: 0px 2px;
+    font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   }
 
   .child {
@@ -47,8 +53,9 @@
     height: 150px;
   }
 
+
   img {
-    border: 2px solid white;
+    border: 2px solid #D3D3D3;
   }
 
 } /* Define mobile styles */
@@ -76,18 +83,19 @@
 
 @media only screen and (min-width: 64.063em) {
   .top-bar {
-    background: transparent !important;
+    background: #C29A50 !important;
+    height: 85px;
   }
     .top-bar.expanded .title-area {
-      background: transparent;
+      background: #C29A50;
     }
     .top-bar-section li {
       /* second layer */
-      background: transparent !important;
+      background: #C29A50 !important;
     }
     .top-bar-section li:not(.has-form) a:not(.button) {
       /* first layer */
-      background: transparent !important; /*#C29A50 */
+      background: #C29A50 !important; /*#C29A50 */
       font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
       font-size: 18px;
       padding: 20px;
@@ -105,7 +113,7 @@
     } 
 
     .intro {
-      background: rgba(0,0,0,0.2);
+      /*background: rgba(0,0,0,0.2);*/
     }
 } /* min-width 1025px, large screens */
 

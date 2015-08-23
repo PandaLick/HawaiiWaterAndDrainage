@@ -8,21 +8,17 @@
 	}
 	/* top bar */
 	.top-bar {
-		/*background: transparent;*/
-		background: #C29A50 !important;
+		background: #C29A50 !important; 
 	}
 		.top-bar.expanded .title-area {
-			/*background: transparent;*/
 			background: #C29A50 !important;
 		}
 		.top-bar-section li {
 			/* second layer */
-			/*background: transparent !important;*/
 			background: #C29A50 !important;
 		}
 		.top-bar-section li:not(.has-form) a:not(.button) {
 			/* first layer */
-			/*background: transparent !important;*/
 			background: #C29A50 !important;
 			font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 		}
