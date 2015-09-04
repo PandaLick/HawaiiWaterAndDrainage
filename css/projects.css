@@ -1,79 +1,72 @@
 @media only screen { 
-
 	body {
 		background: #274A76
 	}
-
 	.introCont h1 {
 		margin-top: 25px;
 	}
-
 	/* content */
 	.content {
-		/*background-color: rgba(0,0,0,0.5);*/
 	}
-
-	.content h1, h2, h3, p {
-		color: white;
-		text-align: center;
-		font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-	}
-
-	.content h1:first-of-type {
-		margin-top: 20px;
-		margin-bottom: -5px;
-	}
-
-	.projects .row {
-		padding-top: 20px;
-	}
-
-	.projects img {
-		border-radius: 5px;
-	}
-
-
-	.projects p {
-		color: black;
-		font-size: 18px;
-		font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-		text-align: center;
-	}
-
-	.otherProjects {
-		background: #C29A50;
-	}
-
-		.otherProjects * {
-			font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+		.content h1, h2, h3, p {
 			color: white;
+			text-align: center;
+			font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+		}
+		.content h1:first-of-type {
+			margin-top: 20px;
+			margin-bottom: -5px;
+		}
+	.projects {}
+		.projects .row {
+			padding-top: 20px;
+		}
+		.projects .row:last-of-type {
+			padding-bottom: 30px;
+		}
+		.projects img {
+			border-radius: 5px;
+		}
+		.projects p {
+			color: black;
+			font-size: 18px;
+			font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 			text-align: center;
 		}
 
-		.otherProjects h1 {
-			margin-top: 10px;
+	.moreProjects {
+		text-align: center;
+	}		
+		.moreProjectsCont {
+			background: #C29A50; 
+			margin: 0px;
+			padding: 0px;
 		}
+		.moreProjectsText{}
+			.moreProjects h1,p {
+				font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+				color: white;
+				text-align: left;
+			}
+		.moreProjectsImages {}
+			.moreProjects img {
+				border-radius: 15px;
+				margin-bottom: 25px;
+				display: inline-block;
+			}
 } /* Define mobile styles */
 
 @media only screen and (max-width: 40em) { } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
 @media only screen and (min-width: 40.063em) {
 	.intro {
-/*	  background: url('../img/projects/mehanaDetentionSystemCover.png') no-repeat center center fixed;
-	  -webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	  background-size: cover;*/
 	  position: relative;
 	}
-
 		.introCont {
 			height: 50vh;
 			postition: relative;
 		}
-
 		.introCont h1 {
-
 			position: absolute;
 			top: 50%;
 			left: 50%;
@@ -87,77 +80,46 @@
 			color: white;
 			font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 		}
-
 	.content {
 		background-color: #FFFFFF;
 	}
-
-		.content h1, h2, h3, p {
-		color: white;
-		}
-
-
 		.content * {
 			color: black;
 		}
-
+		.content h1, h2, h3, p {
+			color: white;
+		}
 		.content .row:first-child {
 			padding-top: 50px;
 		}
 
-	.projects .row:first-of-type {
-
-	}	
-
-	.projects .row {
-		margin-bottom: 50px;
+	.projects {
+		text-align: center;
 	}
-
-	.projects p {
-		color: black;
-	}
-
-	.projects img {
-		/*width: 650px;*/
-		height: 370px;
-	}
-
-	.projects .row:last-of-type {
-		padding-bottom: 100px;
-	}
-
-
-	.otherProjects {
-		/*background-color: red;*/
-	  	background: url('../img/projects/mehanaDetentionSystemCoverFlip.png') no-repeat center center fixed;
-	  	-webkit-background-size: cover;
-	  	-moz-background-size: cover;
-	  	-o-background-size: cover;
-	  	background-size: cover;
-
-	}
-
-	.otherProjectsRow {
-		/*text-align: center;*/
-		position: relative;
-		
-	}
-
-	.otherProjectsContainer {
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		-webkit-transform: translate(-50%, -50%);
-		margin: 30px 0px;
-	}
-
-		.otherProjects p {
-			font-size: 18px;
+		.projects .row {
+			margin-bottom: 50px;
 		}
+		.projects .row:last-of-type {
+			padding-bottom: 100px;
+		}
+		.projects p {
+			color: black;
+		}
+		.projects img {
+			/*width: 650px;*/
+			height: 370px;
+			display: inline-block;
+		}
+	.moreProjectsCont {
+		background: #274A76; 
+	}
+	.moreProjects img {
+		height: 525px;
+		width: 600px
+	}
 
-	.footer {
-		margin-top: 200px;
+	#medSecImg {
+		height: 450px;
 	}
 } /* min-width 641px, medium screens */
 
@@ -197,40 +159,16 @@
 	.intro {
 		height: 40vh;
 	}
-
 		.introCont h1 {
 			margin: 0px;
 		}	
-
-	.daHeader {
-		font-size: 80px;
-	}	
-
-	.otherProjects {
-		/*background-color: red;*/
-	  	background: url('../img/projects/mehanaDetentionSystemCoverFlip.png') no-repeat center center fixed;
-	  	-webkit-background-size: cover;
-	  	-moz-background-size: cover;
-	  	-o-background-size: cover;
-	  	background-size: cover;
-	  	position: relative;
-
+		.daHeader {
+			font-size: 80px;
+		}
+	.moreProjectsText {
+		padding-left: 100px;
 	}
 
-	.otherProjects .row {
-		text-align: center;
-		position: relative;
-		
-	}
-
-	.otherProjectsContainer {
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		-webkit-transform: translate(-50%, -00%);
-		margin: 0px;
-	}
 } /* min-width 1025px, large screens */
 
 @media only screen and (min-width: 64.063em) and (max-width: 90em) { } /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */

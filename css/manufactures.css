@@ -1,26 +1,21 @@
 @media only screen { 
 	body {
-		background: url('../img/projects/mehanaDetentionSystemCoverFlip.png') no-repeat center center fixed; 
+/*		background: url('../img/projects/mehanaDetentionSystemCoverFlip.png') no-repeat center center fixed; 
 	    -webkit-background-size: cover;
 	    -moz-background-size: cover;
 	    -o-background-size: cover;
-	    background-size: cover;
+	    background-size: cover;*/
+	    background: white;
 	}
 
 	.logos .row:first-of-type h4 {
 		margin-bottom: -40px;
 	}
 
-
-
-	.logos, .intro {
-			background: rgba(0,0,0,0.2);
-	}
-
 		.logos h1, h2, h3, h4, h5 {
 			font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 			text-align: center;
-			color: white;
+			color: black;
 			margin-top: 40px;
 			margin-bottom: 40px;
 			padding-left: 10px;
