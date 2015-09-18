@@ -1,6 +1,6 @@
 @media only screen { 
 	body {
-		background: url('../img/projects/mehanaDetentionSystemCoverFlip.png') no-repeat center center fixed; 
+	background: url('../img/projects/mehanaDetentionSystemCoverFlip.png') no-repeat center center fixed; 
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -45,13 +45,15 @@
 	/* content */
 	.content {
 		position: relative;
-		height: 100%;
+		text-align: center;
 	}
 		.content p {
-			padding: 20px;
+			padding-top: 20px;
 			color: white;
 			text-align: center;
 			font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+			margin-left: 10px;
+			margin-right: 10px;
 		}
 
 		.content h1, h2, h3 {
@@ -59,6 +61,21 @@
 			text-align: center;
 			font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 			padding: 20px;
+		}
+
+		.content h1 {
+			margin-left: 25px;
+			margin-right: 25px;
+		}
+
+		.content img {
+			margin-top: 20px;
+			border: 2px solid white;
+			border-radius: 5%;
+
+			margin-left: auto;
+			margin-right: auto;
+			display: inline-block;
 		}
 
 		.separator {
@@ -72,15 +89,8 @@
 		margin-left: auto;
 	}
 
-	.contactContainer {
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		-webkit-transform: translate(-50%, -50%);
-
-		background: rgba(0,0,0,0.3);
-		border-radius: 15px;
+	.contactCont {
+		background: rgba(0,0,0,0.4);
 	}
 
 } /* Define mobile styles */
@@ -88,10 +98,6 @@
 @media only screen and (max-width: 40em) { } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
 @media only screen and (min-width: 40.063em) {
-
-	.content {
-		height: 75%;
-	}
 
 } /* min-width 641px, medium screens */
 
@@ -117,7 +123,7 @@
 		}
 		.top-bar h1 {
 			font-family: "Quattrocento Sans", "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-						padding:20px;
+			padding:20px;
 		}
 		.top-bar.expanded .toggle-topbar a {
 			color: #FFFFFF !important;
@@ -127,9 +133,17 @@
 			font-size: 23px;
 		}	
 
-		.intro {
-			rgba(0,0,0,0.2);
+		.content p {
+			margin-left: 130px;
+			margin-right: 130px;
+			font-size: 20px;
 		}
+
+		.content h1 {
+			margin-left: 75px;
+			margin-right: 75px;
+		}
+
 } /* min-width 1025px, large screens */
 
 @media only screen and (min-width: 64.063em) and (max-width: 90em) { } /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */

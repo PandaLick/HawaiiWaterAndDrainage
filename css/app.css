@@ -6281,3 +6281,8 @@ th.hide-for-touch {
 @media not print {
   .show-for-print {
     display: none !important; } }
+
+#email {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
